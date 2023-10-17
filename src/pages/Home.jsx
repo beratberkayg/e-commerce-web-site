@@ -1,5 +1,11 @@
+import SliderComp from "../components/home/SliderComp";
+
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      <SliderComp />
+    </div>
+  );
 };
 
 export default Home;
