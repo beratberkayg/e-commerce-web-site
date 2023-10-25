@@ -1,7 +1,7 @@
 import React from "react";
-
+import HomeContainer from "@/containers/home";
 function HomePage() {
-  return <div>merhaba</div>;
+  return <HomeContainer />;
 }
 
 export default HomePage;
