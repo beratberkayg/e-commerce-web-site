@@ -7,7 +7,7 @@ import MoviesSection from "@/components/movies-section";
 const HomeContainer = () => {
   return (
     <div>
-      <FeaturedMovie movie={Movies.results[0]} />
+      <FeaturedMovie movie={Movies.results[5]} />
       <Categories categories={Genres.genres.slice(0, 5)} />
       <MoviesSection
         title="Popular Films"
