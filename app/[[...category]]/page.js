@@ -4,8 +4,11 @@ import Movies from "@/mocks/movies.json";
 
 function HomePage({ params }) {
   let selectedCategory;
+
   if (params.length > 0) {
+    selectedCategory = true;
   }
+
   return (
     <HomeContainer
       selectedCategory={{
